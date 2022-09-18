@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to top right, white 650px, #dbb5f5 650px);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 9rem;
+  left: 400px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  color: #242c77;
+  font-family: sans-serif;
+  font-size: 24px
+  
+}
+
+button {
+  background: linear-gradient(to right, #9960f2, #ff8adc);
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #fff;
+  border-radius: 10rem;
+}
+
+.intro-section {
+  display: flex;
+}
+
+.brand-1{
+  margin-left: -105px;
+  margin-top: -15px;
+}
+
+.left-section {
+  margin: 6rem 9rem;
+  margin-left: 30px;
+}
+
+.left-section h1 {
+  font-family: sans-serif;
+  font-size: 80px;
+  color: #242c77;
+  margin-bottom: 2rem;
+}
+.left-section h4 {
+  font-family: sans-serif;
+  width: 600px;
+  margin-top: 30px;
+  font-weight: lighter;
+  color: #7b7e9b;
+  margin-bottom: 3rem;
+  
+  
+}
+.learn-more-btn {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+}
+
+.imgs-div {
+  position: relative;
+}
+
+
+
+.introimg {
+  margin-left: 10px;
+  margin-top: -20px;
+  bottom: 24rem;
+  height: 81vh;
+}
+.vector-dot {
+  position: absolute;
+  bottom: 14rem;
+  left: 4.5rem;
+}
+.vector-img {
+  position:absolute;
+  margin-left: 100px;
+  margin-top: 55%;
+  left: -5rem;
+  
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 1rem;
+  }
+
+  .brand-1{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  
+  .nav-items {
+    display: none;
+  }
+
+  .intro-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .left-section {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .left-section h1 {
+    font-size: 2.8rem;
+  }
+  .left-section h4 {
+    width: auto;
+  }
+  .learn-more-btn {
+    font-size: 1rem;
+  }
+
+  .introimg {
+    margin-top: 1rem;
+    height: 300px;
+    
+  }
+  .vector-img {
+    position: relative;
+    margin-top: 10px;
+    display: none;
+  }
+  .vector-dot{
+    display: none;
+  }
+}
